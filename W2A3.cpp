@@ -1,0 +1,16 @@
+/*
+  name        [ Valid | Good Practice ]
+  NAME        [ Valid | Bad Practice ]
+  1name       [ Invalid ] => can't start with number ]
+  __name      [ Valid ] => can start _ ]
+  name@name   [ Invalid ] => can't have special char ]
+  name10name  [ Valid ] => can have num  ]
+  name!name   [ Invalid ] => can't have sp char ]
+  first_NAME  [ Valid ] => bad practice ]
+  first_name  [ Valid ] => good practice ]
+  firstName   [ Valid ] => good practice ]
+  first name  [ InValid ] => good practice ]
+  fn          [ valid ] => bad practice ]
+  public      [ invalid ] => reserved keyword ]
+  Public      [ valid ] => bad practice ]
+*/
