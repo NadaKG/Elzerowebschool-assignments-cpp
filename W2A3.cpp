@@ -9,7 +9,7 @@
   first_NAME  [ Valid ] => bad practice ]
   first_name  [ Valid ] => good practice ]
   firstName   [ Valid ] => good practice ]
-  first name  [ InValid ] => good practice ]
+  first name  [ InValid ] => can't use space ]
   fn          [ valid ] => bad practice ]
   public      [ invalid ] => reserved keyword ]
   Public      [ valid ] => bad practice ]
