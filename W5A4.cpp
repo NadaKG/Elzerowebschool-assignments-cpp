@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     int num1 = 10;
-    int num2 = 1;
+    int num2 = 10;
     int num3 = 10;
-    int num4 = 40;
+    int num4 = 20;
 
 // Do Not Edit Any Condition
 
