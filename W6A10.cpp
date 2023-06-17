@@ -21,5 +21,7 @@ cout << nums[(size(nums)-1)] <<"\n";
 //Method 4
 cout << nums.front() << "\n";
 cout << nums.back() <<"\n"; 
+//Method 4 for last num
+cout << nums[sizeof(nums)/sizeof(nums[0]) - 1];
   return 0;
 }
