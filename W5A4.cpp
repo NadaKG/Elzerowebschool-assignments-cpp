@@ -8,6 +8,12 @@ int main()
     int num3 = 10;
     int num4 = 20;
 
+// Update values
+    num1 = 10;
+    num2 = 1;
+    num3 = 10;
+    num4 = 40;
+    
 // Do Not Edit Any Condition
 
 // Condition 1
