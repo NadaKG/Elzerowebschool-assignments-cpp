@@ -9,7 +9,7 @@ int main()
   array<int, 3> oldNums = {10, 20, 30};
   array<int, 3> newNums;
 
-  //My Solution
+  //My Old Solution
   newNums[0] = *(end(oldNums) - index);
   newNums[1] = *(end(oldNums) - (index * 2));
   newNums[2] = *(end(oldNums) - (index *3));
@@ -18,6 +18,12 @@ int main()
  //newNums.at(index)=oldNums.at(index);
  //newNums.front() = oldNums.back();
  //newNums.back() = oldNums.front();
+
+  //My Updated Solution
+  newNums[0] = oldNums.back();
+  newNums[1] = oldNums[index];
+  newNums[2] = oldNums.front();
+  
 
 
   // Do Not Edit The Next 3 Lines
