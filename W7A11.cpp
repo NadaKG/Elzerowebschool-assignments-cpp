@@ -23,4 +23,26 @@ int main()
     cout << " ==";
     cout <<"\n==================\n";
     }
+
+    // other solution
+    for (int i = 0; i < size(friends); i++)
+{
+            
+    for (int j = 0; j < 1; j++)
+    {
+        cout << "\n" << "==========" << "\n";
+        cout << "= "<< friends[i] << " =" << "\n"; 
+    }
+    cout << "=====================";
+    cout << "\n";
+    cout <<"== ";
+    for (int m = 0; m < size(friends[i]); m++)
+    {
+        cout << friends[i][m];
+        if (m != (friends[i].length() - 1)) cout << " ,"; 
+    }
+    cout <<" =";
+    cout << "\n";
+    cout << "=====================" << "\n";
+}
 }
